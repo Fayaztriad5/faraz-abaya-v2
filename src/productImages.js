@@ -51,54 +51,50 @@
  * ============================================================
  */
 
-// ── Base URL builder (keeps URLs DRY) ──────────────────────
+/**
+ * ============================================================
+ * productImages.js — Faraz Abaya Image Registry
+ * ============================================================
+ */
+
+// ── Base URL builder ──────────────────────
 const unsplash = (photoId, opts = "w=600&q=80&fit=crop&crop=top") =>
   `https://images.unsplash.com/photo-${photoId}?${opts}`;
 
-// ── Placeholder (shown while you replace with real photos) ──
-// Uses placehold.co — no external dependency, clean grey card
-const ph = (label) =>
-  `https://placehold.co/600x800/1C1C1E/C9A84C?text=${encodeURIComponent(label)}`;
+// ════════════════════════════════════════════════════════════
+//  PRODUCT 1 — Nida Pearl Abaya (Luxury)
+// ════════════════════════════════════════════════════════════
+export const P1_MAIN = unsplash("pNs_ZQ3BoP0"); // The white dress/abaya you chose
+export const P1_ALT1 = unsplash("1609102026400-34039864988e"); // Elegant black abaya
+export const P1_ALT2 = unsplash("1609101918341-945722512686"); // Side profile
 
 // ════════════════════════════════════════════════════════════
-//  PRODUCT 1 — Nida Pearl Abaya  (Luxury)
-//  → Elegant, embellished, occasion wear
+//  PRODUCT 2 — Crepe Office Abaya (Office)
 // ════════════════════════════════════════════════════════════
-export const P1_MAIN = unsplash("pNs_ZQ3BoP0"); // black abaya, studio
-export const P1_ALT1 = unsplash("1583391733956-3750e0ff4e8b"); // modest fashion drape
-export const P1_ALT2 = unsplash("1591047139829-d91aecb6caea"); // abaya detail
+export const P2_MAIN = unsplash("SZbVjTh3klw"); // The professional look you chose
+export const P2_ALT1 = unsplash("1565553642973-6afe791aee33"); // Neutral modest wear
+export const P2_ALT2 = unsplash("1585128719715-46776b56a0d1"); // Professional pose
 
 // ════════════════════════════════════════════════════════════
-//  PRODUCT 2 — Crepe Office Abaya  (Office)
-//  → Structured, professional, clean silhouette
+//  PRODUCT 3 — Cotton Daily Comfort (Daily Wear)
 // ════════════════════════════════════════════════════════════
-export const P2_MAIN = unsplash("SZbVjTh3klw"); // professional modest wear
-export const P2_ALT1 = unsplash("1614093302611-8efc45d5f0c1"); // smart office modest style
-export const P2_ALT2 = unsplash("1622495896760-3abd8e15ce6f"); // abaya side profile
+export const P3_MAIN = unsplash("1631558230230-07e86821262d"); // Soft daily abaya
+export const P3_ALT1 = unsplash("1621235123906-8968953f47b2"); // Outdoor modest shot
+export const P3_ALT2 = unsplash("1609357601569-8041c4912239"); // Fabric texture/look
 
 // ════════════════════════════════════════════════════════════
-//  PRODUCT 3 — Cotton Daily Comfort  (Daily Wear)
-//  → Relaxed, breathable, everyday modest wear
+//  PRODUCT 4 — Student Lite Abaya (Students)
 // ════════════════════════════════════════════════════════════
-export const P3_MAIN = unsplash("1605763240000-7e93b172d754"); // casual modest full length
-export const P3_ALT1 = unsplash("1591047139829-d91aecb6caea"); // daily wear abaya
-export const P3_ALT2 = unsplash("1583391733956-3750e0ff4e8b"); // fabric texture
+export const P4_MAIN = unsplash("YBVF3BKtw44"); // FIXED: Extracted ID from your link
+export const P4_ALT1 = unsplash("1588613146340-738997a39396"); // Youthful style
+export const P4_ALT2 = unsplash("1598550476439-6847785fce6e"); // Simple campus vibe
 
 // ════════════════════════════════════════════════════════════
-//  PRODUCT 4 — Student Lite Abaya  (Students)
-//  → Lightweight, youthful, practical
+//  PRODUCT 5 — Royal Embroidered Abaya (Luxury)
 // ════════════════════════════════════════════════════════════
-export const P4_MAIN = "https://unsplash.com/photos/a-woman-in-a-white-dress-sitting-on-a-ledge-YBVF3BKtw44"; // modest student look
-export const P4_ALT1 = unsplash("1605763240000-7e93b172d754"); // campus modest style
-export const P4_ALT2 = unsplash("1614093302611-8efc45d5f0c1"); // simple everyday abaya
-
-// ════════════════════════════════════════════════════════════
-//  PRODUCT 5 — Royal Embroidered Abaya  (Luxury)
-//  → Statement piece, embroidery, wedding/Eid
-// ════════════════════════════════════════════════════════════
-export const P5_MAIN = unsplash("1583391733956-3750e0ff4e8b"); // luxury abaya drape
-export const P5_ALT1 = unsplash("1622495896760-3abd8e15ce6f"); // embroidered detail
-export const P5_ALT2 = unsplash("1591047139829-d91aecb6caea"); // occasion abaya
+export const P5_MAIN = unsplash("1595171730005-7389280d00f7"); // Premium embroidered look
+export const P5_ALT1 = unsplash("1627568598424-6981882d2645"); // Detailed gold/black fabric
+export const P5_ALT2 = unsplash("1583391733956-3750e0ff4e8b"); // Luxury drape
 
 // ════════════════════════════════════════════════════════════
 //  HOW TO ADD A NEW PRODUCT (Future Scalability)
