@@ -64,7 +64,7 @@ const ph = (label) =>
 //  PRODUCT 1 — Nida Pearl Abaya  (Luxury)
 //  → Elegant, embellished, occasion wear
 // ════════════════════════════════════════════════════════════
-export const P1_MAIN = unsplash("1622495896760-3abd8e15ce6f"); // black abaya, studio
+export const P1_MAIN = unsplash("pNs_ZQ3BoP0"); // black abaya, studio
 export const P1_ALT1 = unsplash("1583391733956-3750e0ff4e8b"); // modest fashion drape
 export const P1_ALT2 = unsplash("1591047139829-d91aecb6caea"); // abaya detail
 
@@ -72,7 +72,7 @@ export const P1_ALT2 = unsplash("1591047139829-d91aecb6caea"); // abaya detail
 //  PRODUCT 2 — Crepe Office Abaya  (Office)
 //  → Structured, professional, clean silhouette
 // ════════════════════════════════════════════════════════════
-export const P2_MAIN = unsplash("1594938298603-c8148c4b2a4e"); // professional modest wear
+export const P2_MAIN = unsplash("SZbVjTh3klw"); // professional modest wear
 export const P2_ALT1 = unsplash("1614093302611-8efc45d5f0c1"); // smart office modest style
 export const P2_ALT2 = unsplash("1622495896760-3abd8e15ce6f"); // abaya side profile
 
