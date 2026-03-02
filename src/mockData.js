@@ -23,7 +23,7 @@ import {
 } from "./productImages";
 
 // ── Store config ─────────────────────────────────────────────
-export const WHATSAPP = "917012345678"; // 🔁 Replace with your WhatsApp number
+export const WHATSAPP = "919543184629"; // 🔁 Replace with your WhatsApp number
 
 // ── Category list ─────────────────────────────────────────────
 export const CATS = ["All", "Daily Wear", "Office", "Luxury", "Students"];
