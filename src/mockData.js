@@ -1,15 +1,43 @@
-export const WHATSAPP = "917012345678"; // 🔁 Replace with your actual number
+/**
+ * ============================================================
+ *  mockData.js — Faraz Abaya Product Data
+ * ============================================================
+ *
+ *  This file contains ONLY product data (name, price, desc…).
+ *  All image URLs live in productImages.js — never add image
+ *  URLs directly here.
+ *
+ *  TO ADD A NEW PRODUCT:
+ *  1. Add image exports to productImages.js  (P6_MAIN etc.)
+ *  2. Add the product object to INITIAL_PRODUCTS below
+ *  3. Reference images as:  imgs: [P6_MAIN, P6_ALT1, P6_ALT2]
+ * ============================================================
+ */
 
+import {
+  P1_MAIN, P1_ALT1, P1_ALT2,
+  P2_MAIN, P2_ALT1, P2_ALT2,
+  P3_MAIN, P3_ALT1, P3_ALT2,
+  P4_MAIN, P4_ALT1, P4_ALT2,
+  P5_MAIN, P5_ALT1, P5_ALT2,
+} from "./productImages";
+
+// ── Store config ─────────────────────────────────────────────
+export const WHATSAPP = "917012345678"; // 🔁 Replace with your WhatsApp number
+
+// ── Category list ─────────────────────────────────────────────
 export const CATS = ["All", "Daily Wear", "Office", "Luxury", "Students"];
 
+// ── Badge styles [background, text] ──────────────────────────
 export const BADGE_COLORS = {
-  Bestseller: ["#C9A84C", "#1C1C1E"],
-  New: ["#1C1C1E", "#C9A84C"],
-  "Top Pick": ["#2D6A4F", "#fff"],
-  "Budget Pick": ["#6B7280", "#fff"],
-  Limited: ["#9B1C1C", "#fff"],
+  Bestseller:   ["#C9A84C", "#1C1C1E"],
+  New:          ["#1C1C1E", "#C9A84C"],
+  "Top Pick":   ["#2D6A4F", "#fff"],
+  "Budget Pick":["#6B7280", "#fff"],
+  Limited:      ["#9B1C1C", "#fff"],
 };
 
+// ── Products ──────────────────────────────────────────────────
 export const INITIAL_PRODUCTS = [
   {
     id: 1,
@@ -21,11 +49,7 @@ export const INITIAL_PRODUCTS = [
     rating: 4.9,
     reviews: 128,
     desc: "Elegantly crafted with premium Nida fabric, adorned with delicate pearl embroidery at the cuffs. Perfect for special occasions and formal gatherings.",
-    imgs: [
-      "https://gemini.google.com/share/11b07ce46aca",
-      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-    ],
+    imgs: [P1_MAIN, P1_ALT1, P1_ALT2],
   },
   {
     id: 2,
@@ -37,11 +61,7 @@ export const INITIAL_PRODUCTS = [
     rating: 4.7,
     reviews: 89,
     desc: "Designed for the modern professional woman. Wrinkle-resistant Korean Crepe with a structured silhouette. Features hidden pockets for practicality.",
-    imgs: [
-      "https://share.google/Xs3f9kGZx5mY6bCSK",
-      "https://images.unsplash.com/photo-1594938298603-c8148c4b2a4e?w=600&q=80",
-      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80",
-    ],
+    imgs: [P2_MAIN, P2_ALT1, P2_ALT2],
   },
   {
     id: 3,
@@ -53,11 +73,7 @@ export const INITIAL_PRODUCTS = [
     rating: 4.8,
     reviews: 214,
     desc: "Your everyday companion crafted from breathable soft cotton. Light, comfortable, and modest — ideal for daily errands and casual outings. Machine washable.",
-    imgs: [
-      "https://images.unsplash.com/photo-1605763240000-7e93b172d754?w=600&q=80",
-      "https://share.google/Xs3f9kGZx5mY6bCSK",
-      "https://images.unsplash.com/photo-1594938298603-c8148c4b2a4e?w=600&q=80",
-    ],
+    imgs: [P3_MAIN, P3_ALT1, P3_ALT2],
   },
   {
     id: 4,
@@ -69,11 +85,7 @@ export const INITIAL_PRODUCTS = [
     rating: 4.6,
     reviews: 67,
     desc: "Affordable, stylish, and durable — made for students on the go. Lightweight polyester blend that stays fresh through long college days.",
-    imgs: [
-      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80",
-      "https://images.unsplash.com/photo-1605763240000-7e93b172d754?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-    ],
+    imgs: [P4_MAIN, P4_ALT1, P4_ALT2],
   },
   {
     id: 5,
@@ -85,10 +97,6 @@ export const INITIAL_PRODUCTS = [
     rating: 5.0,
     reviews: 42,
     desc: "The crown jewel of our collection. Hand-embroidered gold zari threadwork on premium Nida with a flowing chiffon overlay. For weddings and Eid celebrations.",
-    imgs: [
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1605763240000-7e93b172d754?w=600&q=80",
-      "https://share.google/Xs3f9kGZx5mY6bCSK",
-    ],
+    imgs: [P5_MAIN, P5_ALT1, P5_ALT2],
   },
 ];
