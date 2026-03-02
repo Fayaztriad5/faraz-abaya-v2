@@ -88,7 +88,7 @@ export const P3_ALT2 = unsplash("1583391733956-3750e0ff4e8b"); // fabric texture
 //  PRODUCT 4 — Student Lite Abaya  (Students)
 //  → Lightweight, youthful, practical
 // ════════════════════════════════════════════════════════════
-export const P4_MAIN = https://unsplash.com/photos/a-woman-in-a-white-dress-sitting-on-a-ledge-YBVF3BKtw44; // modest student look
+export const P4_MAIN = "https://unsplash.com/photos/a-woman-in-a-white-dress-sitting-on-a-ledge-YBVF3BKtw44"; // modest student look
 export const P4_ALT1 = unsplash("1605763240000-7e93b172d754"); // campus modest style
 export const P4_ALT2 = unsplash("1614093302611-8efc45d5f0c1"); // simple everyday abaya
 
