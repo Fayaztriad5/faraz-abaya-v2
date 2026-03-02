@@ -22,7 +22,7 @@ export const INITIAL_PRODUCTS = [
     reviews: 128,
     desc: "Elegantly crafted with premium Nida fabric, adorned with delicate pearl embroidery at the cuffs. Perfect for special occasions and formal gatherings.",
     imgs: [
-      "https://images.unsplash.com/photo-1594938298603-c8148c4b2a4e?w=600&q=80",
+      "https://gemini.google.com/share/11b07ce46aca",
       "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80",
       "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
     ],
@@ -38,7 +38,7 @@ export const INITIAL_PRODUCTS = [
     reviews: 89,
     desc: "Designed for the modern professional woman. Wrinkle-resistant Korean Crepe with a structured silhouette. Features hidden pockets for practicality.",
     imgs: [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+      "https://share.google/Xs3f9kGZx5mY6bCSK",
       "https://images.unsplash.com/photo-1594938298603-c8148c4b2a4e?w=600&q=80",
       "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80",
     ],
@@ -55,7 +55,7 @@ export const INITIAL_PRODUCTS = [
     desc: "Your everyday companion crafted from breathable soft cotton. Light, comfortable, and modest — ideal for daily errands and casual outings. Machine washable.",
     imgs: [
       "https://images.unsplash.com/photo-1605763240000-7e93b172d754?w=600&q=80",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+      "https://share.google/Xs3f9kGZx5mY6bCSK",
       "https://images.unsplash.com/photo-1594938298603-c8148c4b2a4e?w=600&q=80",
     ],
   },
@@ -88,7 +88,7 @@ export const INITIAL_PRODUCTS = [
     imgs: [
       "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
       "https://images.unsplash.com/photo-1605763240000-7e93b172d754?w=600&q=80",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+      "https://share.google/Xs3f9kGZx5mY6bCSK",
     ],
   },
 ];
