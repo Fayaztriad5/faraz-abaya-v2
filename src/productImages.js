@@ -57,6 +57,12 @@
  * ============================================================
  */
 
+/**
+ * ============================================================
+ * productImages.js — Faraz Abaya Image Registry (FIXED)
+ * ============================================================
+ */
+
 // ── Base URL builder ──────────────────────
 const unsplash = (photoId, opts = "w=600&q=80&fit=crop&crop=top") =>
   `https://images.unsplash.com/photo-${photoId}?${opts}`;
@@ -64,37 +70,37 @@ const unsplash = (photoId, opts = "w=600&q=80&fit=crop&crop=top") =>
 // ════════════════════════════════════════════════════════════
 //  PRODUCT 1 — Nida Pearl Abaya (Luxury)
 // ════════════════════════════════════════════════════════════
-export const P1_MAIN = unsplash("pNs_ZQ3BoP0"); // The white dress/abaya you chose
-export const P1_ALT1 = unsplash("1609102026400-34039864988e"); // Elegant black abaya
-export const P1_ALT2 = unsplash("1609101918341-945722512686"); // Side profile
+export const P1_MAIN = unsplash("pNs_ZQ3BoP0"); 
+export const P1_ALT1 = unsplash("1609102026400-34039864988e"); 
+export const P1_ALT2 = unsplash("1609101918341-945722512686"); 
 
 // ════════════════════════════════════════════════════════════
 //  PRODUCT 2 — Crepe Office Abaya (Office)
 // ════════════════════════════════════════════════════════════
-export const P2_MAIN = unsplash("SZbVjTh3klw"); // The professional look you chose
-export const P2_ALT1 = unsplash("1565553642973-6afe791aee33"); // Neutral modest wear
-export const P2_ALT2 = unsplash("1585128719715-46776b56a0d1"); // Professional pose
+export const P2_MAIN = unsplash("SZbVjTh3klw"); 
+export const P2_ALT1 = unsplash("1565553642973-6afe791aee33"); 
+export const P2_ALT2 = unsplash("1585128719715-46776b56a0d1"); 
 
 // ════════════════════════════════════════════════════════════
 //  PRODUCT 3 — Cotton Daily Comfort (Daily Wear)
 // ════════════════════════════════════════════════════════════
-export const P3_MAIN = unsplash("1631558230230-07e86821262d"); // Soft daily abaya
-export const P3_ALT1 = unsplash("1621235123906-8968953f47b2"); // Outdoor modest shot
-export const P3_ALT2 = unsplash("1609357601569-8041c4912239"); // Fabric texture/look
+export const P3_MAIN = unsplash("1631558230230-07e86821262d"); 
+export const P3_ALT1 = unsplash("1621235123906-8968953f47b2"); 
+export const P3_ALT2 = unsplash("1609357601569-8041c4912239"); 
 
 // ════════════════════════════════════════════════════════════
 //  PRODUCT 4 — Student Lite Abaya (Students)
 // ════════════════════════════════════════════════════════════
-export const P4_MAIN = unsplash("YBVF3BKtw44"); // FIXED: Extracted ID from your link
-export const P4_ALT1 = unsplash("1588613146340-738997a39396"); // Youthful style
-export const P4_ALT2 = unsplash("1598550476439-6847785fce6e"); // Simple campus vibe
+export const P4_MAIN = unsplash("YBVF3BKtw44"); 
+export const P4_ALT1 = unsplash("1588613146340-738997a39396"); 
+export const P4_ALT2 = unsplash("1598550476439-6847785fce6e"); 
 
 // ════════════════════════════════════════════════════════════
 //  PRODUCT 5 — Royal Embroidered Abaya (Luxury)
 // ════════════════════════════════════════════════════════════
-export const P5_MAIN = unsplash("1595171730005-7389280d00f7"); // Premium embroidered look
-export const P5_ALT1 = unsplash("1627568598424-6981882d2645"); // Detailed gold/black fabric
-export const P5_ALT2 = unsplash("1583391733956-3750e0ff4e8b"); // Luxury drape
+export const P5_MAIN = unsplash("1595171730005-7389280d00f7"); 
+export const P5_ALT1 = unsplash("1627568598424-6981882d2645"); 
+export const P5_ALT2 = unsplash("1583391733956-3750e0ff4e8b");
 
 // ════════════════════════════════════════════════════════════
 //  HOW TO ADD A NEW PRODUCT (Future Scalability)
