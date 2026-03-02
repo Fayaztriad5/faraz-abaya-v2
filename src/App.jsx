@@ -5,6 +5,7 @@ import ProductDetail from "./components/ProductDetail";
 import AdminPanel from "./components/AdminPanel";
 import globalStyles from "./styles";
 import { INITIAL_PRODUCTS, CATS, WHATSAPP } from "./mockData";
+import Logo from "./components/Logo";
 
 const WaIcon = ({ size = 20, color = "white" }) => (
   <svg viewBox="0 0 24 24" fill={color} style={{ width: size, height: size }}>
@@ -36,9 +37,7 @@ function Home({ products, onView, cat, setCat, search }) {
             </p>
           </div>
           {/* Logo badge — hidden on tiny screens via CSS */}
-          <div className="hero-badge" style={{ width: 96, height: 96, borderRadius: 20, background: "linear-gradient(135deg,#1C1C1E,#2C2C2E)", border: "3px solid rgba(201,168,76,.4)", alignItems: "center", justifyContent: "center" }}>
-            <span style={{ fontFamily: "'Cormorant Garamond',serif", color: "#C9A84C", fontSize: 42, fontWeight: 600 }}>F</span>
-          </div>
+          <Logo size={110} />
         </div>
       </div>
 
@@ -94,9 +93,7 @@ function Footer({ onNav }) {
           {/* Brand */}
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 14 }}>
-              <div style={{ width: 42, height: 42, borderRadius: "50%", background: "linear-gradient(135deg,#1C1C1E,#2C2C2E)", border: "2px solid #C9A84C", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
-                <span style={{ fontFamily: "'Cormorant Garamond',serif", color: "#C9A84C", fontSize: 17, fontWeight: 600 }}>F</span>
-              </div>
+              <Logo size={44} />
               <div>
                 <div className="font-display" style={{ fontSize: 19, color: "#FAF8F5" }}>Faraz Abaya</div>
                 <div style={{ fontSize: 10, color: "var(--gold)", fontFamily: "'Jost',sans-serif", letterSpacing: "0.15em" }}>فراز عبايه</div>
