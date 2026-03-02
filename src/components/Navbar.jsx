@@ -1,11 +1,6 @@
 import { useState } from "react";
 import { CATS } from "../mockData";
-
-const Logo = ({ size = 40 }) => (
-  <div style={{ width: size, height: size, borderRadius: "50%", background: "linear-gradient(135deg,#1C1C1E,#2C2C2E)", border: "2px solid #C9A84C", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
-    <span style={{ fontFamily: "'Cormorant Garamond',serif", color: "#C9A84C", fontSize: size * 0.38, fontWeight: 600 }}>F</span>
-  </div>
-);
+import Logo from "./Logo";
 
 export default function Navbar({ onNav, search, setSearch, cat, setCat }) {
   const [dropOpen, setDropOpen] = useState(false);
@@ -20,7 +15,7 @@ export default function Navbar({ onNav, search, setSearch, cat, setCat }) {
 
           {/* Logo */}
           <button onClick={() => { onNav("home"); closeMobile(); }} style={{ display: "flex", alignItems: "center", gap: 10, background: "none", border: "none", cursor: "pointer", flexShrink: 0 }}>
-            <Logo size={38} />
+            <Logo size={42} />
             <div>
               <div className="font-display" style={{ fontSize: 17, fontWeight: 600, color: "var(--charcoal)" }}>Faraz Abaya</div>
               <div style={{ fontSize: 9, color: "var(--gold)", letterSpacing: "0.18em", fontFamily: "'Jost',sans-serif", fontWeight: 600 }}>فراز عبايه</div>
